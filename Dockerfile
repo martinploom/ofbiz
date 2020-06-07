@@ -1,4 +1,3 @@
-IntelliJ IDEAPhpStormWebStorm  
 FROM openjdk:11
 
 MAINTAINER tutinformatics
