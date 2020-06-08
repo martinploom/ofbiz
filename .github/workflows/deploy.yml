@@ -35,7 +35,7 @@ jobs:
           port: ${{ secrets.PORT }}
           envs: GITHUB_USERNAME, GITHUB_TOKEN
           script: |
-            docker stop ofbiz_back
+            docker stop ofbiz_back --ignore-unmatch
             docker system prune -af
             docker login docker.pkg.github.com -u $GITHUB_USERNAME -p $GITHUB_TOKEN
-            docker run -dit -p 8443:8443 -name ofbiz_back docker.pkg.github.com/martinploom/ofbiz/ofbiz:latest
+            docker run -dit --name ofbiz_back -p 8443:8443 docker.pkg.github.com/martinploom/ofbiz/ofbiz:latest
