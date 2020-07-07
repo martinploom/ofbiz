@@ -37,4 +37,3 @@ EXPOSE 1099
 
 # Run ofbiz
 ENTRYPOINT ./gradlew cleanAll loadAll ofbiz
-
