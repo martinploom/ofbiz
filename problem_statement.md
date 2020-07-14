@@ -203,13 +203,14 @@ and installing nano
 
 and going into it with `nano nginx.conf` I do not see the server conf, although the `default.conf` should be imported. Changed the `https://localhost:8443` to `https://back:8443` and restarted the nginx with `nginx -s reload` and then I got response from the back via Postman POST login method ... and the stuff works in browser as well.
 
-So all in all, if this works in server, the possible solutious were
-`https://back:8443` instead of `https://back:8443/` which I think I tried out before as Tavo suggested, but in [here](https://medium.com/@codingwithmanny/create-an-nginx-reverse-proxy-with-docker-a1c0aa9078f1) it was said that back proxy must have the final `/` for sure.
+So all in all, it finally works in server as well. The possible solutions were
+1. `https://localhost:8443` instead of `https://localhost:8443/` which got it locally working with proxy being not in container
+    1. Do not know why the [guide](https://medium.com/@codingwithmanny/create-an-nginx-reverse-proxy-with-docker-a1c0aa9078f1) said that the slash at the end is a must have, as it broke everything ...
+    1. When I readd the final `/`, then the proxy is broken again, so it is important to **NOT ADD IT**!
+1. Inside the container use `https://back:8443` as localhost doesn't work ...
+    1. I think I tried out before as Tavo suggested, but maybe I had the last slash or at some point the containers were named `ofbiz_front` and `ofbiz_back` and the browser read that there can be no `_` inside url.
+    
 
-Currently, not sure why the proxy inside container brakes stuff, 
-1. is it because the 6060 port is swapped to 80 port, 
-1. or proxy settings have changed (due to using html in folder not 6060 port?)
-1. or running proxy inside container brakes it (seems most logical, as we are having problems with back and it is not related to 80 vs 6060 port)
-
-What I would try
-1. take the proxy out of front container and run it in server (can I do it? How does it find index page?)
+Final questions regarding the problem, what I do not understand yet.
+1. Why didn't `localhost` work and `back` worked?
+1. Why didn't it work with final `/`?
