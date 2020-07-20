@@ -39,3 +39,4 @@ jobs:
             docker system prune -af
             docker login docker.pkg.github.com -u $GITHUB_USERNAME -p $GITHUB_TOKEN
             docker run -dit --name back -p 8443:8443 docker.pkg.github.com/martinploom/ofbiz/ofbiz:latest
+            docker network connect mynetwork back

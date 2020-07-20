@@ -52,6 +52,26 @@ under the License.
             logoImageUrl=""
     />
 
+<!--    <PartyQuarter-->
+<!--        registryCode="12652512"-->
+<!--        fromDate=""-->
+<!--        toDate=""-->
+<!--        numberOfEmployees="1"-->
+<!--        revenue="9953.35"-->
+<!--    />-->
+
+    <Emtak
+        level1="L"
+        level2="68"
+        level3="6"
+        level4="6"
+        level5="6"
+        text="Kinnisvaraalane tegevus"
+        registryCode="12652512"
+    />
+
+
+
 <!--    <PartyContactMech-->
 <!--        partyId="1234567"-->
 <!--        contactMechId="1234567"-->

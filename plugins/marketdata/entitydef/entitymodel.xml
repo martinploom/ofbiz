@@ -58,4 +58,33 @@ under the License.
         <prim-key field="companyId"/>
     </entity>
 
+    <entity entity-name="PartyQuarter" package-name="ee.taltech.ofbiz.marketdata" title="Marketdata quarter information">
+        <field name="registryCode" type="id"></field>
+        <field name="fromDate" type="date-time"></field>
+        <field name="toDate" type="date-time"></field>
+        <field name="numberOfEmployees" type="numeric"></field>
+        <field name="revenue" type="currency-amount"></field>
+<!--        <field name="demo" type="id"></field>-->
+        <relation type="one-nofk" rel-entity-name="PartyGroup">
+            <key-map field-name="registryCode" rel-field-name="partyId"/>
+        </relation>
+    </entity>
+
+    <entity entity-name="Emtak" package-name="ee.taltech.ofbiz.marketdata" title="Emtak information">
+        <field name="level1" type="id"></field>
+        <field name="level2" type="id"></field>
+        <field name="level3" type="id"></field>
+        <field name="level4" type="id"></field>
+        <field name="level5" type="id"></field>
+        <field name="text" type="name"></field>
+        <field name="registryCode" type="id"></field>
+        <prim-key field="text"/>
+        <relation type="many" rel-entity-name="PartyGroup">
+            <key-map field-name="registryCode" rel-field-name="partyId"/>
+        </relation>
+
+    </entity>
+
+
+
 </entitymodel>
