@@ -39,20 +39,132 @@ under the License.
             employeeCount="43"/>
 
 
-    <Party partyId="12652512"></Party>
-
     <!-- MUST USE . NOT , for revenue-->
+    <Party partyId="10000018"></Party>
     <PartyGroup
-            partyId="12652512"
-            groupName="001 KINNISVARA OÜ"
+            partyId="10000018"
+            groupName="AMSERV AUTO AS"
             officeSiteName="Harju ( Tallinn )"
-            annualRevenue="9953.35"
-            numEmployees="1"
-            comments="KINNISVARAALANE TEGEVUS"
-            logoImageUrl=""
     />
 
-<!--    <PartyQuarter-->
+    <Party partyId="10000024"></Party>
+    <PartyGroup
+            partyId="10000024"
+            groupName="EESTI RAAMAT, OÜ"
+            officeSiteName="Harju ( Tallinn )"
+    />
+
+    <Party partyId="10000062"></Party>
+    <PartyGroup
+            partyId="10000062"
+            groupName="ALDO KOPPEL"
+            officeSiteName="Ida-Viru ( Lüganuse vald )"
+    />
+
+    <Party partyId="10000127"></Party>
+    <PartyGroup
+            partyId="10000127"
+            groupName="ARAVETE APTEEK, TÜ"
+            officeSiteName="Järva ( Järva vald )"
+    />
+
+    <Party partyId="10000165"></Party>
+    <PartyGroup
+            partyId="10000165"
+            groupName="KIVIÕLI KAUBAHOOV, AS"
+            officeSiteName="Ida-Viru ( Lüganuse vald )"
+    />
+
+    <Party partyId="10000219"></Party>
+    <PartyGroup
+            partyId="10000219"
+            groupName="YEAR, AS"
+            officeSiteName="Harju ( Anija vald )"
+    />
+
+    <Party partyId="10000248"></Party>
+    <PartyGroup
+            partyId="10000248"
+            groupName="ITW CONSTRUCTION PRODUCTS OÜ"
+            officeSiteName="Harju ( Tallinn )"
+    />
+
+    <Party partyId="10000356"></Party>
+    <PartyGroup
+            partyId="10000356"
+            groupName="ESTIKO, AS"
+            officeSiteName="Tartu ( Tartu linn )"
+    />
+
+    <Party partyId="10000372"></Party>
+    <PartyGroup
+            partyId="10000372"
+            groupName="SAARIOINEN EESTI OÜ"
+            officeSiteName="Rapla ( Rapla vald )"
+    />
+
+    <Party partyId="10000395"></Party>
+    <PartyGroup
+            partyId="10000395"
+            groupName="KUUMTRÜKK, OÜ"
+            officeSiteName="Harju ( Tallinn )"
+    />
+
+    <Party partyId="10000455"></Party>
+    <PartyGroup
+            partyId="10000455"
+            groupName="EHITUSMEISTER, OÜ"
+            officeSiteName="Võru ( Võru linn )"
+    />
+
+    <Party partyId="10000461"></Party>
+    <PartyGroup
+            partyId="10000461"
+            groupName="MUAREE, OÜ"
+            officeSiteName="Võru ( Võru linn )"
+    />
+
+    <Party partyId="10000515"></Party>
+    <PartyGroup
+            partyId="10000515"
+            groupName="B.BRAUN MEDICAL, OÜ"
+            officeSiteName="Harju ( Tallinn )"
+    />
+
+    <Party partyId="10000550"></Party>
+    <PartyGroup
+            partyId="10000550"
+            groupName="GPK PARTNERID, OÜ"
+            officeSiteName="Tartu ( Tartu linn )"
+    />
+
+    <Party partyId="10000573"></Party>
+    <PartyGroup
+            partyId="10000573"
+            groupName="AKTSIASELTS METAPRINT"
+            officeSiteName="Harju ( Tallinn )"
+    />
+
+    <PartyQuarter
+            partyId="10000573"
+            fromDate=""
+            toDate=""
+            numberOfEmployees="200"
+            revenue=""
+            periodType=""
+    />
+
+    <PartyQuarter
+            partyId="10000573"
+            fromDate=""
+            toDate=""
+            numberOfEmployees="100"
+            revenue=""
+            periodType=""
+    />
+
+
+    <!--    <PartyQuarter-->
 <!--        registryCode="12652512"-->
 <!--        fromDate=""-->
 <!--        toDate=""-->
