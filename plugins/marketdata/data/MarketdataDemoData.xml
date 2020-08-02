@@ -45,6 +45,9 @@ under the License.
             partyId="10000018"
             groupName="AMSERV AUTO AS"
             officeSiteName="Harju ( Tallinn )"
+            annualRevenue=""
+            numEmployees="211"
+            logoImageUrl="https://www.amservauto.ee/upload/SITELOGO.png"
     />
 
     <Party partyId="10000024"></Party>
@@ -52,6 +55,9 @@ under the License.
             partyId="10000024"
             groupName="EESTI RAAMAT, OÜ"
             officeSiteName="Harju ( Tallinn )"
+            annualRevenue="126522.33"
+            numEmployees="11"
+            logoImageUrl="https://eestiraamat.ee/image/catalog/logo/EestiRaamat803.png"
     />
 
     <Party partyId="10000062"></Party>
@@ -59,6 +65,9 @@ under the License.
             partyId="10000062"
             groupName="ALDO KOPPEL"
             officeSiteName="Ida-Viru ( Lüganuse vald )"
+            annualRevenue="251.65"
+            numEmployees=""
+            logoImageUrl=""
     />
 
     <Party partyId="10000127"></Party>
@@ -66,6 +75,9 @@ under the License.
             partyId="10000127"
             groupName="ARAVETE APTEEK, TÜ"
             officeSiteName="Järva ( Järva vald )"
+            annualRevenue="120082.02"
+            numEmployees="2"
+            logoImageUrl=""
     />
 
     <Party partyId="10000165"></Party>
@@ -73,6 +85,9 @@ under the License.
             partyId="10000165"
             groupName="KIVIÕLI KAUBAHOOV, AS"
             officeSiteName="Ida-Viru ( Lüganuse vald )"
+            annualRevenue="1096823.38"
+            numEmployees="45"
+            logoImageUrl="http://www.kaubahoov.ee/images/style/logo.png"
     />
 
     <Party partyId="10000219"></Party>
@@ -80,6 +95,9 @@ under the License.
             partyId="10000219"
             groupName="YEAR, AS"
             officeSiteName="Harju ( Anija vald )"
+            annualRevenue="61884.41"
+            numEmployees="21"
+            logoImageUrl=""
     />
 
     <Party partyId="10000248"></Party>
@@ -87,6 +105,9 @@ under the License.
             partyId="10000248"
             groupName="ITW CONSTRUCTION PRODUCTS OÜ"
             officeSiteName="Harju ( Tallinn )"
+            annualRevenue="1300417.07"
+            numEmployees="7"
+            logoImageUrl=""
     />
 
     <Party partyId="10000356"></Party>
@@ -94,6 +115,9 @@ under the License.
             partyId="10000356"
             groupName="ESTIKO, AS"
             officeSiteName="Tartu ( Tartu linn )"
+            annualRevenue="2379154.55"
+            numEmployees="19"
+            logoImageUrl=""
     />
 
     <Party partyId="10000372"></Party>
@@ -101,6 +125,9 @@ under the License.
             partyId="10000372"
             groupName="SAARIOINEN EESTI OÜ"
             officeSiteName="Rapla ( Rapla vald )"
+            annualRevenue="5085598.05"
+            numEmployees="162"
+            logoImageUrl=""
     />
 
     <Party partyId="10000395"></Party>
@@ -108,6 +135,9 @@ under the License.
             partyId="10000395"
             groupName="KUUMTRÜKK, OÜ"
             officeSiteName="Harju ( Tallinn )"
+            annualRevenue="44091.21"
+            numEmployees="6"
+            logoImageUrl=""
     />
 
     <Party partyId="10000455"></Party>
@@ -115,6 +145,9 @@ under the License.
             partyId="10000455"
             groupName="EHITUSMEISTER, OÜ"
             officeSiteName="Võru ( Võru linn )"
+            annualRevenue="109765.1"
+            numEmployees="9"
+            logoImageUrl=""
     />
 
     <Party partyId="10000461"></Party>
@@ -122,6 +155,9 @@ under the License.
             partyId="10000461"
             groupName="MUAREE, OÜ"
             officeSiteName="Võru ( Võru linn )"
+            annualRevenue="5205.72"
+            numEmployees="2"
+            logoImageUrl=""
     />
 
     <Party partyId="10000515"></Party>
@@ -129,6 +165,9 @@ under the License.
             partyId="10000515"
             groupName="B.BRAUN MEDICAL, OÜ"
             officeSiteName="Harju ( Tallinn )"
+            annualRevenue="4140028.74"
+            numEmployees="27"
+            logoImageUrl=""
     />
 
     <Party partyId="10000550"></Party>
@@ -136,6 +175,9 @@ under the License.
             partyId="10000550"
             groupName="GPK PARTNERID, OÜ"
             officeSiteName="Tartu ( Tartu linn )"
+            annualRevenue="38941.22"
+            numEmployees="7"
+            logoImageUrl=""
     />
 
     <Party partyId="10000573"></Party>
@@ -143,15 +185,33 @@ under the License.
             partyId="10000573"
             groupName="AKTSIASELTS METAPRINT"
             officeSiteName="Harju ( Tallinn )"
+            annualRevenue="28928605.07"
+            numEmployees="225"
+            logoImageUrl=""
+    />
+
+    <PartyQuarter
+            partyId="10000018"
+            fromDate=""
+            toDate=""
+            stateTaxes="661683.39"
+            workforceTaxes="701230.18"
+            revenue=""
+            numberOfEmployees="211"
+            periodType="Quarter"
+            period="2019 IV"
     />
 
     <PartyQuarter
             partyId="10000573"
             fromDate=""
             toDate=""
-            numberOfEmployees="200"
-            revenue=""
-            periodType=""
+            stateTaxes="570273.86"
+            workforceTaxes="575669.81"
+            revenue="28928605.07"
+            numberOfEmployees="225"
+            periodType="Quarter"
+            period="2019 IV"
     />
 
     <PartyQuarter
