@@ -63,6 +63,9 @@ under the License.
         <field name="partyId" type="id"></field>
         <field name="fromDate" type="date-time"></field>
         <field name="toDate" type="date-time"></field>
+        <field name="year" type="numeric"></field>
+        <field name="month" type="numeric"></field>
+        <field name="quarter" type="numeric"></field>
         <field name="stateTaxes" type="currency-amount"></field>
         <field name="workforceTaxes" type="currency-amount"></field>
         <field name="revenue" type="currency-amount"></field>

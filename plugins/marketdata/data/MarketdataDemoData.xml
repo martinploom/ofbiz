@@ -180,6 +180,8 @@ under the License.
             logoImageUrl=""
     />
 
+
+
     <Party partyId="10000573"></Party>
     <PartyGroup
             partyId="10000573"
@@ -190,10 +192,105 @@ under the License.
             logoImageUrl=""
     />
 
+    <ContactMech
+            contactMechId="1"
+            infoString="blablabla"
+    />
+
+    <PostalAddress
+            contactMechId="1"
+            contactMechTypeId="POSTAL_ADDRESS"
+            city="Tallinn"
+            address1="Sõpruse pst"
+            houseNumber="1"
+            houseNumberExt="20"
+            />
+
+    <ContactMech
+            contactMechId="2"
+            infoString="blablabla"
+    />
+
+    <PostalAddress
+            contactMechId="2"
+            city="Tallinn"
+            address1="Mustemäe tee"
+            houseNumber="30"
+            houseNumberExt="100"
+    />
+
+    <Party partyId="10"/>
+    <Person
+        partyId="10"
+        firstName="Peeter"
+        lastName="Kell"
+        />
+
+    <Party partyId="11"/>
+    <Person
+            partyId="11"
+            firstName="Mari"
+            lastName="Kukk"
+    />
+
+    <PartyContactMech
+        partyId="10000018"
+        contactMechId="1"
+        fromDate="2020-12-12 09:09:09"
+        comments="bla"
+    />
+
+    <PartyContactMech
+            partyId="10000018"
+            contactMechId="2"
+            fromDate="2020-12-12 09:09:09"
+            comments="bla"
+    />
+
+<!--    <PartyContactMech-->
+<!--            partyId="10000018"-->
+<!--            contactMechId="10"-->
+<!--            fromDate="2020-12-12 09:09:09"-->
+<!--            comments="bla"-->
+<!--    />-->
+
+<!--    <PartyContactMech-->
+<!--            partyId="10000018"-->
+<!--            contactMechId="11"-->
+<!--            fromDate="2020-12-12 09:09:09"-->
+<!--            comments="bla"-->
+<!--    />-->
+
+
+<!--    <Person-->
+<!--            partyId=""-->
+<!--            firstName=""-->
+<!--            lastName=""-->
+<!--            birthDate-->
+<!--    />-->
+
     <PartyQuarter
             partyId="10000018"
             fromDate=""
             toDate=""
+            year="2019"
+            month=""
+            quarter="4"
+            stateTaxes="661683.39"
+            workforceTaxes="701230.18"
+            revenue=""
+            numberOfEmployees="211"
+            periodType="Quarter"
+            period="2019 IV"
+    />
+
+    <PartyQuarter
+            partyId="10000018"
+            fromDate=""
+            toDate=""
+            year="2019"
+            month=""
+            quarter="3"
             stateTaxes="661683.39"
             workforceTaxes="701230.18"
             revenue=""
@@ -206,6 +303,9 @@ under the License.
             partyId="10000573"
             fromDate=""
             toDate=""
+            year="2019"
+            month=""
+            quarter="4"
             stateTaxes="570273.86"
             workforceTaxes="575669.81"
             revenue="28928605.07"
@@ -218,6 +318,9 @@ under the License.
             partyId="10000573"
             fromDate=""
             toDate=""
+            year="2019"
+            month=""
+            quarter="4"
             numberOfEmployees="100"
             revenue=""
             periodType=""
