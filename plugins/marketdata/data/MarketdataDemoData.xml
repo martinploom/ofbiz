@@ -270,11 +270,12 @@ under the License.
 <!--    />-->
 
     <PartyQuarter
+            entryId="1"
             partyId="10000018"
             fromDate=""
             toDate=""
-            year="2019"
-            month=""
+            year_="2019"
+            month_=""
             quarter="4"
             stateTaxes="661683.39"
             workforceTaxes="701230.18"
@@ -285,11 +286,12 @@ under the License.
     />
 
     <PartyQuarter
+            entryId="2"
             partyId="10000018"
             fromDate=""
             toDate=""
-            year="2019"
-            month=""
+            year_="2019"
+            month_=""
             quarter="3"
             stateTaxes="661683.39"
             workforceTaxes="701230.18"
@@ -300,11 +302,12 @@ under the License.
     />
 
     <PartyQuarter
+            entryId="3"
             partyId="10000573"
             fromDate=""
             toDate=""
-            year="2019"
-            month=""
+            year_="2019"
+            month_=""
             quarter="4"
             stateTaxes="570273.86"
             workforceTaxes="575669.81"
@@ -315,11 +318,12 @@ under the License.
     />
 
     <PartyQuarter
+            entryId="4"
             partyId="10000573"
             fromDate=""
             toDate=""
-            year="2019"
-            month=""
+            year_="2019"
+            month_=""
             quarter="4"
             numberOfEmployees="100"
             revenue=""

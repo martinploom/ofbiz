@@ -63,8 +63,8 @@ under the License.
         <field name="partyId" type="id"></field>
         <field name="fromDate" type="date-time"></field>
         <field name="toDate" type="date-time"></field>
-        <field name="year" type="numeric"></field>
-        <field name="month" type="numeric"></field>
+        <field name="year_" type="numeric"></field>
+        <field name="month_" type="numeric"></field>
         <field name="quarter" type="numeric"></field>
         <field name="stateTaxes" type="currency-amount"></field>
         <field name="workforceTaxes" type="currency-amount"></field>
@@ -74,6 +74,7 @@ under the License.
         <field name="periodType" type="name"></field>
         <field name="period" type="name"></field>
         <prim-key field="entryId"/>
+        <prim-key field="partyId"/>
 <!--        <field name="demo" type="id"></field>-->
         <relation type="many" fk-name="PARTY_QRT_PARTY" rel-entity-name="Party">
             <key-map field-name="partyId"/>
