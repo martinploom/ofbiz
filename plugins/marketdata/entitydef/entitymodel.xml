@@ -58,7 +58,9 @@ under the License.
         <prim-key field="companyId"/>
     </entity>
 
-    <entity entity-name="PartyQuarter" package-name="ee.taltech.ofbiz.marketdata" title="Marketdata quarter information">
+    <entity entity-name="PartyQuarter"
+            package-name="ee.taltech.ofbiz.marketdata"
+            title="Marketdata quarter information">
         <field name="entryId" type="id"></field>
         <field name="partyId" type="id"></field>
         <field name="fromDate" type="date-time"></field>
@@ -76,7 +78,7 @@ under the License.
         <prim-key field="entryId"/>
         <prim-key field="partyId"/>
 <!--        <field name="demo" type="id"></field>-->
-        <relation type="many" fk-name="PARTY_QRT_PARTY" rel-entity-name="Party">
+        <relation type="one" fk-name="PARTY_QRT_PARTY_GRP" rel-entity-name="PartyGroup">
             <key-map field-name="partyId"/>
         </relation>
     </entity>

@@ -19,25 +19,6 @@ under the License.
 -->
 
 <entity-engine-xml>
-    <OfbizDemo ofbizDemoId="SAMPLE_DEMO_1" ofbizDemoTypeId="INTERNAL" firstName="Sample First 1"
-               lastName="Sample Last 1" comments="This is test comment for first record."/>
-    <OfbizDemo ofbizDemoId="SAMPLE_DEMO_2" ofbizDemoTypeId="INTERNAL" firstName="Sample First 2"
-               lastName="Sample last 2" comments="This is test comment for second record."/>
-    <OfbizDemo ofbizDemoId="SAMPLE_DEMO_3" ofbizDemoTypeId="EXTERNAL" firstName="Sample First 3"
-               lastName="Sample last 3" comments="This is test comment for third record."/>
-    <OfbizDemo ofbizDemoId="SAMPLE_DEMO_4" ofbizDemoTypeId="EXTERNAL" firstName="Sample First 4"
-               lastName="Sample last 4" comments="This is test comment for fourth record."/>
-
-    <MarketdataModel
-            companyId="SAMPLE_DEMO_5"
-            companyName="001 group OÜ"
-            registryCode="12754230"
-            companyStatus="Registrisse kantud"
-            companyAddress="Harju maakond, Tallinn, Haabersti linnaosa, Õismäe tee 78-9"
-            companyBusinessModel="B2B"
-            companySector="Cleantech"
-            employeeCount="43"/>
-
 
     <!-- MUST USE . NOT , for revenue-->
     <Party partyId="10000018"></Party>
@@ -180,8 +161,6 @@ under the License.
             logoImageUrl=""
     />
 
-
-
     <Party partyId="10000573"></Party>
     <PartyGroup
             partyId="10000573"
@@ -191,6 +170,7 @@ under the License.
             numEmployees="225"
             logoImageUrl=""
     />
+
 
     <ContactMech
             contactMechId="1"
@@ -219,6 +199,21 @@ under the License.
             houseNumberExt="100"
     />
 
+
+    <ContactMech
+            contactMechId="3"
+            infoString="blablabla"
+    />
+
+    <PostalAddress
+            contactMechId="3"
+            city="Tallinn"
+            address1="Mustamäe tee"
+            houseNumber="30"
+            houseNumberExt="100"
+    />
+
+
     <Party partyId="10"/>
     <Person
         partyId="10"
@@ -231,6 +226,39 @@ under the License.
             partyId="11"
             firstName="Mari"
             lastName="Kukk"
+    />
+
+    <PartyRole
+        partyId="10000018"
+        roleTypeId="ORGANIZATION_ROLE"
+        />
+
+    <PartyRole
+        partyId="10"
+        roleTypeId="EMPLOYEE"
+        />
+
+    <PartyRole
+        partyId="11"
+        roleTypeId="EMPLOYEE"
+        />
+
+    <PartyRelationship
+        partyIdTo="10"
+        roleTypeIdTo="EMPLOYEE"
+        partyIdFrom="10000018"
+        roleTypeIdFrom="ORGANIZATION_ROLE"
+        fromDate="2020-12-12 09:09:09"
+        partyRelationshipTypeId="EMPLOYMENT"
+        />
+
+    <PartyRelationship
+            partyIdTo="11"
+            roleTypeIdTo="EMPLOYEE"
+            partyIdFrom="10000018"
+            roleTypeIdFrom="ORGANIZATION_ROLE"
+            fromDate="2020-12-12 09:09:09"
+            partyRelationshipTypeId="EMPLOYMENT"
     />
 
     <PartyContactMech
@@ -247,63 +275,64 @@ under the License.
             comments="bla"
     />
 
-<!--    <PartyContactMech-->
-<!--            partyId="10000018"-->
-<!--            contactMechId="10"-->
-<!--            fromDate="2020-12-12 09:09:09"-->
-<!--            comments="bla"-->
-<!--    />-->
-
-<!--    <PartyContactMech-->
-<!--            partyId="10000018"-->
-<!--            contactMechId="11"-->
-<!--            fromDate="2020-12-12 09:09:09"-->
-<!--            comments="bla"-->
-<!--    />-->
-
-
-<!--    <Person-->
-<!--            partyId=""-->
-<!--            firstName=""-->
-<!--            lastName=""-->
-<!--            birthDate-->
-<!--    />-->
-
-    <PartyQuarter
-            entryId="1"
-            partyId="10000018"
-            fromDate=""
-            toDate=""
-            year_="2019"
-            month_=""
-            quarter="4"
-            stateTaxes="661683.39"
-            workforceTaxes="701230.18"
-            revenue=""
-            numberOfEmployees="211"
-            periodType="Quarter"
-            period="2019 IV"
+    <PartyContactMech
+            partyId="10000024"
+            contactMechId="3"
+            fromDate="2020-12-12 09:09:09"
+            comments="bla"
     />
 
+<!--    <PartyQuarter-->
+<!--            entryId="1"-->
+<!--            partyId="10000018"-->
+<!--            fromDate=""-->
+<!--            toDate=""-->
+<!--            year_="2019"-->
+<!--            month_=""-->
+<!--            quarter="1"-->
+<!--            stateTaxes="1000"-->
+<!--            workforceTaxes="2000"-->
+<!--            revenue="300"-->
+<!--            numberOfEmployees="300"-->
+<!--            periodType="Quarter"-->
+<!--            period="2019 IV"-->
+<!--    />-->
+
+<!--    <PartyQuarter-->
+<!--            entryId="2"-->
+<!--            partyId="10000018"-->
+<!--            fromDate=""-->
+<!--            toDate=""-->
+<!--            year_="2019"-->
+<!--            month_=""-->
+<!--            quarter="2"-->
+<!--            stateTaxes="3000"-->
+<!--            workforceTaxes="4000"-->
+<!--            revenue="200"-->
+<!--            numberOfEmployees="350"-->
+<!--            periodType="Quarter"-->
+<!--            period="2019 IV"-->
+<!--    />-->
+
     <PartyQuarter
-            entryId="2"
+            entryId="3"
             partyId="10000018"
             fromDate=""
             toDate=""
             year_="2019"
             month_=""
             quarter="3"
-            stateTaxes="661683.39"
-            workforceTaxes="701230.18"
-            revenue=""
-            numberOfEmployees="211"
+            stateTaxes="5000"
+            workforceTaxes="6000"
+            revenue="100"
+            numberOfEmployees="400"
             periodType="Quarter"
             period="2019 IV"
     />
 
     <PartyQuarter
-            entryId="3"
-            partyId="10000573"
+            entryId="4"
+            partyId="10000018"
             fromDate=""
             toDate=""
             year_="2019"
@@ -317,8 +346,24 @@ under the License.
             period="2019 IV"
     />
 
+<!--    <PartyQuarter-->
+<!--            entryId="5"-->
+<!--            partyId="10000018"-->
+<!--            fromDate=""-->
+<!--            toDate=""-->
+<!--            year_="2020"-->
+<!--            month_=""-->
+<!--            quarter="1"-->
+<!--            stateTaxes="1000"-->
+<!--            workforceTaxes="2000"-->
+<!--            revenue="300"-->
+<!--            numberOfEmployees="300"-->
+<!--            periodType="Quarter"-->
+<!--            period="2019 IV"-->
+<!--    />-->
+
     <PartyQuarter
-            entryId="4"
+            entryId="6"
             partyId="10000573"
             fromDate=""
             toDate=""
@@ -330,15 +375,6 @@ under the License.
             periodType=""
     />
 
-
-    <!--    <PartyQuarter-->
-<!--        registryCode="12652512"-->
-<!--        fromDate=""-->
-<!--        toDate=""-->
-<!--        numberOfEmployees="1"-->
-<!--        revenue="9953.35"-->
-<!--    />-->
-
     <Emtak
         level1="L"
         level2="68"
@@ -348,43 +384,4 @@ under the License.
         text="Kinnisvaraalane tegevus"
         registryCode="12652512"
     />
-
-
-
-<!--    <PartyContactMech-->
-<!--        partyId="1234567"-->
-<!--        contactMechId="1234567"-->
-<!--        />-->
-
-<!--    <ContactMech-->
-<!--            contactMechId="1234567"-->
-<!--            />-->
-
-<!--    <PostalAddress-->
-<!--            contactMechId="1234567"-->
-<!--            address1="Sõpruse pst"-->
-<!--            houseNumber="219-44"-->
-<!--            city="Tallinn"-->
-<!--            postalCode="13414"-->
-<!--            />-->
-
-    <MarketdataModel
-            companyId="SAMPLE_DEMO_6"
-            companyName="002 group OÜ"
-            registryCode="12567785"
-            companyStatus="Pole registris"
-            companyAddress="Harju maakond, Tallinn, Kristiine linnaosa, Nõmme 12"
-            companyBusinessModel="B2C"
-            companySector="Business software"
-            employeeCount="12"/>
-    <!--   <PartyGroup
-            partyId="DemoCustomer"
-            groupName="001 group OÜ"
-            annualRevenue="1000 000"
-            numEmployees="12754230"/>
-    <PartyGroup
-            partyId="DemoCustomer"
-            groupName="002 group OÜ"
-            annualRevenue="1000 000"
-            numEmployees="12754230"/>-->
 </entity-engine-xml>
