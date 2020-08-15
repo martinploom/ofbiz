@@ -19,7 +19,7 @@ under the License.
 -->
 
 <entitymodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/entitymodel.xsd">
+             xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/entitymodel.xsd">
     <!-- ========================================================= -->
     <!-- ======================== Defaults ======================= -->
     <!-- ========================================================= -->
@@ -29,13 +29,17 @@ under the License.
     <version>1.0</version>
 
     <entity entity-name="OfbizDemoType" package-name="org.apache.ofbiz.ofbizdemo" title="OfbizDemo Type Entity">
-        <field name="ofbizDemoTypeId" type="id"><description>primary sequenced ID</description></field>
+        <field name="ofbizDemoTypeId" type="id">
+            <description>primary sequenced ID</description>
+        </field>
         <field name="description" type="description"></field>
         <prim-key field="ofbizDemoTypeId"/>
     </entity>
 
     <entity entity-name="OfbizDemo" package-name="org.apache.ofbiz.ofbizdemo" title="OfbizDemo Entity">
-        <field name="ofbizDemoId" type="id"><description>primary sequenced ID</description></field>
+        <field name="ofbizDemoId" type="id">
+            <description>primary sequenced ID</description>
+        </field>
         <field name="ofbizDemoTypeId" type="id"></field>
         <field name="firstName" type="name"></field>
         <field name="lastName" type="name"></field>
@@ -46,8 +50,11 @@ under the License.
         </relation>
     </entity>
 
-    <entity entity-name="MarketdataModel" package-name="org.apache.ofbiz.marketdata" title="Marketdata Company Type Entity">
-        <field name="companyId" type="id"><description>primary sequenced ID</description></field>
+    <entity entity-name="MarketdataModel" package-name="org.apache.ofbiz.marketdata"
+            title="Marketdata Company Type Entity">
+        <field name="companyId" type="id">
+            <description>primary sequenced ID</description>
+        </field>
         <field name="companyName" type="name"></field>
         <field name="registryCode" type="name"></field>
         <field name="companyStatus" type="name"></field>
@@ -77,27 +84,55 @@ under the License.
         <field name="period" type="name"></field>
         <prim-key field="entryId"/>
         <prim-key field="partyId"/>
-<!--        <field name="demo" type="id"></field>-->
+        <!--        <field name="demo" type="id"></field>-->
         <relation type="one" fk-name="PARTY_QRT_PARTY_GRP" rel-entity-name="PartyGroup">
             <key-map field-name="partyId"/>
         </relation>
     </entity>
 
     <entity entity-name="Emtak" package-name="ee.taltech.ofbiz.marketdata" title="Emtak information">
+        <!--        <field name="entryId" type="id"></field>-->
+        <!--        <field name="partyId" type="id"></field>-->
+
         <field name="level1" type="id"></field>
         <field name="level2" type="id"></field>
         <field name="level3" type="id"></field>
         <field name="level4" type="id"></field>
         <field name="level5" type="id"></field>
-        <field name="text" type="name"></field>
-        <field name="registryCode" type="id"></field>
-        <prim-key field="text"/>
-        <relation type="many" rel-entity-name="PartyGroup">
-            <key-map field-name="registryCode" rel-field-name="partyId"/>
-        </relation>
+        <field name="code" type="id"></field>
+        <field name="emtak" type="comment"></field>
+        <!--        <field name="registryCode" type="id"></field>-->
+
+        <!--        <prim-key field="entryId"/>-->
+        <prim-key field="code"/>
+        <!--        <field name="demo" type="id"></field>-->
+        <!--        <relation type="one" fk-name="PARTY_QRT_PARTY_GRP" rel-entity-name="PartyGroup">-->
+        <!--            <key-map field-name="partyId"/>-->
+        <!--        </relation>-->
+
+
+        <!--        <prim-key field="text"/>-->
+        <!--        <relation type="many" rel-entity-name="PartyGroup">-->
+        <!--            <key-map field-name="registryCode" rel-field-name="partyId"/>-->
+        <!--        </relation>-->
 
     </entity>
 
+    <entity entity-name="EmtakToPartyGroup" package-name="ee.taltech.ofbiz.marketdata" title="Emtak information">
+        <field name="partyId" type="id"></field>
+        <field name="code" type="id"></field>
+<!--        <field name="emtak" type="name"></field>-->
+
+        <prim-key field="partyId"/>
+        <prim-key field="code"/>
+
+        <relation type="one" fk-name="PARTY_GRP" rel-entity-name="PartyGroup">
+            <key-map field-name="partyId"/>
+        </relation>
+        <relation type="one" fk-name="EMTAK" rel-entity-name="Emtak">
+            <key-map field-name="code"/>
+        </relation>
+    </entity>
 
 
 </entitymodel>

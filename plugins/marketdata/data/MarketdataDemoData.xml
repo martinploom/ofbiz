@@ -26,7 +26,7 @@ under the License.
             partyId="10000018"
             groupName="AMSERV AUTO AS"
             officeSiteName="Harju ( Tallinn )"
-            annualRevenue=""
+            annualRevenue="28928705.07"
             numEmployees="211"
             logoImageUrl="https://www.amservauto.ee/upload/SITELOGO.png"
     />
@@ -184,7 +184,7 @@ under the License.
             address1="Sõpruse pst"
             houseNumber="1"
             houseNumberExt="20"
-            />
+    />
 
     <ContactMech
             contactMechId="2"
@@ -216,10 +216,10 @@ under the License.
 
     <Party partyId="10"/>
     <Person
-        partyId="10"
-        firstName="Peeter"
-        lastName="Kell"
-        />
+            partyId="10"
+            firstName="Peeter"
+            lastName="Kell"
+    />
 
     <Party partyId="11"/>
     <Person
@@ -229,28 +229,28 @@ under the License.
     />
 
     <PartyRole
-        partyId="10000018"
-        roleTypeId="ORGANIZATION_ROLE"
-        />
+            partyId="10000018"
+            roleTypeId="ORGANIZATION_ROLE"
+    />
 
     <PartyRole
-        partyId="10"
-        roleTypeId="EMPLOYEE"
-        />
+            partyId="10"
+            roleTypeId="EMPLOYEE"
+    />
 
     <PartyRole
-        partyId="11"
-        roleTypeId="EMPLOYEE"
-        />
+            partyId="11"
+            roleTypeId="EMPLOYEE"
+    />
 
     <PartyRelationship
-        partyIdTo="10"
-        roleTypeIdTo="EMPLOYEE"
-        partyIdFrom="10000018"
-        roleTypeIdFrom="ORGANIZATION_ROLE"
-        fromDate="2020-12-12 09:09:09"
-        partyRelationshipTypeId="EMPLOYMENT"
-        />
+            partyIdTo="10"
+            roleTypeIdTo="EMPLOYEE"
+            partyIdFrom="10000018"
+            roleTypeIdFrom="ORGANIZATION_ROLE"
+            fromDate="2020-12-12 09:09:09"
+            partyRelationshipTypeId="EMPLOYMENT"
+    />
 
     <PartyRelationship
             partyIdTo="11"
@@ -262,10 +262,10 @@ under the License.
     />
 
     <PartyContactMech
-        partyId="10000018"
-        contactMechId="1"
-        fromDate="2020-12-12 09:09:09"
-        comments="bla"
+            partyId="10000018"
+            contactMechId="1"
+            fromDate="2020-12-12 09:09:09"
+            comments="bla"
     />
 
     <PartyContactMech
@@ -282,37 +282,37 @@ under the License.
             comments="bla"
     />
 
-<!--    <PartyQuarter-->
-<!--            entryId="1"-->
-<!--            partyId="10000018"-->
-<!--            fromDate=""-->
-<!--            toDate=""-->
-<!--            year_="2019"-->
-<!--            month_=""-->
-<!--            quarter="1"-->
-<!--            stateTaxes="1000"-->
-<!--            workforceTaxes="2000"-->
-<!--            revenue="300"-->
-<!--            numberOfEmployees="300"-->
-<!--            periodType="Quarter"-->
-<!--            period="2019 IV"-->
-<!--    />-->
+    <!--    <PartyQuarter-->
+    <!--            entryId="1"-->
+    <!--            partyId="10000018"-->
+    <!--            fromDate=""-->
+    <!--            toDate=""-->
+    <!--            year_="2019"-->
+    <!--            month_=""-->
+    <!--            quarter="1"-->
+    <!--            stateTaxes="1000"-->
+    <!--            workforceTaxes="2000"-->
+    <!--            revenue="300"-->
+    <!--            numberOfEmployees="300"-->
+    <!--            periodType="Quarter"-->
+    <!--            period="2019 IV"-->
+    <!--    />-->
 
-<!--    <PartyQuarter-->
-<!--            entryId="2"-->
-<!--            partyId="10000018"-->
-<!--            fromDate=""-->
-<!--            toDate=""-->
-<!--            year_="2019"-->
-<!--            month_=""-->
-<!--            quarter="2"-->
-<!--            stateTaxes="3000"-->
-<!--            workforceTaxes="4000"-->
-<!--            revenue="200"-->
-<!--            numberOfEmployees="350"-->
-<!--            periodType="Quarter"-->
-<!--            period="2019 IV"-->
-<!--    />-->
+    <!--    <PartyQuarter-->
+    <!--            entryId="2"-->
+    <!--            partyId="10000018"-->
+    <!--            fromDate=""-->
+    <!--            toDate=""-->
+    <!--            year_="2019"-->
+    <!--            month_=""-->
+    <!--            quarter="2"-->
+    <!--            stateTaxes="3000"-->
+    <!--            workforceTaxes="4000"-->
+    <!--            revenue="200"-->
+    <!--            numberOfEmployees="350"-->
+    <!--            periodType="Quarter"-->
+    <!--            period="2019 IV"-->
+    <!--    />-->
 
     <PartyQuarter
             entryId="3"
@@ -346,21 +346,21 @@ under the License.
             period="2019 IV"
     />
 
-<!--    <PartyQuarter-->
-<!--            entryId="5"-->
-<!--            partyId="10000018"-->
-<!--            fromDate=""-->
-<!--            toDate=""-->
-<!--            year_="2020"-->
-<!--            month_=""-->
-<!--            quarter="1"-->
-<!--            stateTaxes="1000"-->
-<!--            workforceTaxes="2000"-->
-<!--            revenue="300"-->
-<!--            numberOfEmployees="300"-->
-<!--            periodType="Quarter"-->
-<!--            period="2019 IV"-->
-<!--    />-->
+    <!--    <PartyQuarter-->
+    <!--            entryId="5"-->
+    <!--            partyId="10000018"-->
+    <!--            fromDate=""-->
+    <!--            toDate=""-->
+    <!--            year_="2020"-->
+    <!--            month_=""-->
+    <!--            quarter="1"-->
+    <!--            stateTaxes="1000"-->
+    <!--            workforceTaxes="2000"-->
+    <!--            revenue="300"-->
+    <!--            numberOfEmployees="300"-->
+    <!--            periodType="Quarter"-->
+    <!--            period="2019 IV"-->
+    <!--    />-->
 
     <PartyQuarter
             entryId="6"
@@ -375,13 +375,36 @@ under the License.
             periodType=""
     />
 
-    <Emtak
-        level1="L"
-        level2="68"
-        level3="6"
-        level4="6"
-        level5="6"
-        text="Kinnisvaraalane tegevus"
-        registryCode="12652512"
+    <PartyQuarter
+            entryId="6"
+            partyId="10000573"
+            fromDate=""
+            toDate=""
+            year_="2019"
+            month_=""
+            quarter="4"
+            numberOfEmployees="100"
+            revenue=""
+            periodType=""
     />
+
+<!--    <Emtak-->
+<!--            code=""-->
+<!--            level1="L"-->
+<!--            level2="68"-->
+<!--            level3="6"-->
+<!--            level4="6"-->
+<!--            level5="6"-->
+<!--            emtak="Kinnisvaraalane tegevus"-->
+<!--    />-->
+
+<!--    <Emtak-->
+<!--            code="G"-->
+<!--            emtak="HULGI- JA JAEKAUBANDUS; OOTORSÕIDUKITE JA MOOTORRATASTE REMONT"-->
+<!--    />-->
+
+<!--    <EmtakToPartyGroup-->
+<!--            code="G"-->
+<!--            partyId="10000018"-->
+<!--    />-->
 </entity-engine-xml>
