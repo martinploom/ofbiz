@@ -91,7 +91,7 @@ public class MarketdataService {
 //        Debug.log("==========This is marketdata service!===========");
 //    }
 
-//    public Map<String, List<SimpleDiscountDTO>> importQuarterInformation(DispatchContext dctx, Map<String, ?> context) throws GenericEntityException {
+//    public Map<String, Object> importQuarterInformation(DispatchContext dctx, Map<String, ?> context) throws GenericEntityException {
 //        Delegator delegator = dctx.getDelegator();
 //        List<GenericValue> productPromos = EntityQuery.use(delegator).from(PRODUCT_PROMO).where(PROMO_NAME, AFFILIATE_DISCOUNT).queryList();
 //

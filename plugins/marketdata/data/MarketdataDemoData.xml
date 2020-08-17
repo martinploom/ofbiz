@@ -22,411 +22,386 @@ under the License.
 
     <!-- MUST USE . NOT , for revenue-->
     <Party partyId="10000018"></Party>
-    <PartyGroup
-            partyId="10000018"
-            groupName="AMSERV AUTO AS"
-            officeSiteName="Harju ( Tallinn )"
-            annualRevenue="28928705.07"
-            numEmployees="225"
-            logoImageUrl="https://www.amservauto.ee/upload/SITELOGO.png"
+    <PartyGroup partyId="10000018"
+                groupName="AMSERV AUTO AS"
+                officeSiteName="Harju ( Tallinn )"
+                annualRevenue="28928705.07"
+                numEmployees="225"
+                logoImageUrl="https://www.amservauto.ee/upload/SITELOGO.png"
+    />
+    <PartyRole partyId="10000018"
+               roleTypeId="ORGANIZATION_ROLE"
+    />
+    <PartyQuarter entryId="6" partyId="10000018"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="570993.86"
+                  workforceTaxes="575999.81"
+                  revenue="28929905.07"
+                  numberOfEmployees="225"
+                  periodType="year"
+                  period=""
+    />
+    <PartyQuarter entryId="3" partyId="10000018"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter="3"
+                  stateTaxes="5000"
+                  workforceTaxes="6000"
+                  revenue="100"
+                  numberOfEmployees="400"
+                  periodType="Quarter"
+                  period="2019 IV"
+    />
+    <PartyQuarter entryId="4" partyId="10000018"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter="4"
+                  stateTaxes="570273.86"
+                  workforceTaxes="575669.81"
+                  revenue="28928605.07"
+                  numberOfEmployees="225"
+                  periodType="Quarter"
+                  period="2019 IV"
     />
 
     <Party partyId="10000024"></Party>
-    <PartyGroup
-            partyId="10000024"
-            groupName="EESTI RAAMAT, OÜ"
-            officeSiteName="Harju ( Tallinn )"
-            annualRevenue=""
-            numEmployees=""
-            logoImageUrl="https://eestiraamat.ee/image/catalog/logo/EestiRaamat803.png"
+    <PartyGroup partyId="10000024"
+                groupName="EESTI RAAMAT, OÜ"
+                officeSiteName="Harju ( Tallinn )"
+                annualRevenue=""
+                numEmployees=""
+                logoImageUrl="https://eestiraamat.ee/image/catalog/logo/EestiRaamat803.png"
+    />
+    <PartyQuarter entryId="10" partyId="10000024"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="1000"
+                  workforceTaxes="1000"
+                  revenue="1000"
+                  numberOfEmployees="1000"
+                  periodType="year"
+                  period=""
     />
 
     <Party partyId="10000062"></Party>
-    <PartyGroup
-            partyId="10000062"
-            groupName="ALDO KOPPEL"
-            officeSiteName="Ida-Viru ( Lüganuse vald )"
-            annualRevenue=""
-            numEmployees=""
-            logoImageUrl=""
+    <PartyGroup partyId="10000062"
+                groupName="ALDO KOPPEL"
+                officeSiteName="Ida-Viru ( Lüganuse vald )"
+                annualRevenue=""
+                numEmployees=""
+                logoImageUrl=""
+    />
+    <PartyQuarter entryId="11" partyId="10000062"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="2000"
+                  workforceTaxes="2000"
+                  revenue="2000"
+                  numberOfEmployees="2000"
+                  periodType="year"
+                  period=""
     />
 
     <Party partyId="10000127"></Party>
-    <PartyGroup
-            partyId="10000127"
-            groupName="ARAVETE APTEEK, TÜ"
-            officeSiteName="Järva ( Järva vald )"
-            annualRevenue=""
-            numEmployees=""
-            logoImageUrl=""
+    <PartyGroup partyId="10000127"
+                groupName="ARAVETE APTEEK, TÜ"
+                officeSiteName="Järva ( Järva vald )"
+                annualRevenue=""
+                numEmployees=""
+                logoImageUrl=""
+    />
+    <PartyQuarter entryId="12" partyId="10000127"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="3000"
+                  workforceTaxes="3000"
+                  revenue="3000"
+                  numberOfEmployees="3000"
+                  periodType="year"
+                  period=""
     />
 
     <Party partyId="10000165"></Party>
-    <PartyGroup
-            partyId="10000165"
-            groupName="KIVIÕLI KAUBAHOOV, AS"
-            officeSiteName="Ida-Viru ( Lüganuse vald )"
-            annualRevenue="1096823.38"
-            numEmployees="45"
-            logoImageUrl="http://www.kaubahoov.ee/images/style/logo.png"
+    <PartyGroup partyId="10000165"
+                groupName="KIVIÕLI KAUBAHOOV, AS"
+                officeSiteName="Ida-Viru ( Lüganuse vald )"
+                annualRevenue="1096823.38"
+                numEmployees="45"
+                logoImageUrl="http://www.kaubahoov.ee/images/style/logo.png"
+    />
+    <PartyQuarter entryId="13" partyId="10000165"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="4000"
+                  workforceTaxes="4000"
+                  revenue="4000"
+                  numberOfEmployees="4000"
+                  periodType="year"
+                  period=""
     />
 
     <Party partyId="10000219"></Party>
-    <PartyGroup
-            partyId="10000219"
-            groupName="YEAR, AS"
-            officeSiteName="Harju ( Anija vald )"
-            annualRevenue="61884.41"
-            numEmployees="21"
-            logoImageUrl=""
+    <PartyGroup partyId="10000219"
+                groupName="YEAR, AS"
+                officeSiteName="Harju ( Anija vald )"
+                annualRevenue="61884.41"
+                numEmployees="21"
+                logoImageUrl=""
+    />
+    <PartyQuarter entryId="14" partyId="10000219"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2018"
+                  month_=""
+                  quarter=""
+                  stateTaxes="5000"
+                  workforceTaxes="5000"
+                  revenue="5000"
+                  numberOfEmployees="5000"
+                  periodType="year"
+                  period=""
     />
 
     <Party partyId="10000248"></Party>
-    <PartyGroup
-            partyId="10000248"
-            groupName="ITW CONSTRUCTION PRODUCTS OÜ"
-            officeSiteName="Harju ( Tallinn )"
-            annualRevenue="1300417.07"
-            numEmployees="7"
-            logoImageUrl=""
+    <PartyGroup partyId="10000248"
+                groupName="ITW CONSTRUCTION PRODUCTS OÜ"
+                officeSiteName="Harju ( Tallinn )"
+                annualRevenue="1300417.07"
+                numEmployees="7"
+                logoImageUrl=""
     />
 
     <Party partyId="10000356"></Party>
-    <PartyGroup
-            partyId="10000356"
-            groupName="ESTIKO, AS"
-            officeSiteName="Tartu ( Tartu linn )"
-            annualRevenue="2379154.55"
-            numEmployees="19"
-            logoImageUrl=""
+    <PartyGroup partyId="10000356"
+                groupName="ESTIKO, AS"
+                officeSiteName="Tartu ( Tartu linn )"
+                annualRevenue="2379154.55"
+                numEmployees="19"
+                logoImageUrl=""
     />
 
     <Party partyId="10000372"></Party>
-    <PartyGroup
-            partyId="10000372"
-            groupName="SAARIOINEN EESTI OÜ"
-            officeSiteName="Rapla ( Rapla vald )"
-            annualRevenue="5085598.05"
-            numEmployees="162"
-            logoImageUrl=""
+    <PartyGroup partyId="10000372"
+                groupName="SAARIOINEN EESTI OÜ"
+                officeSiteName="Rapla ( Rapla vald )"
+                annualRevenue="5085598.05"
+                numEmployees="162"
+                logoImageUrl=""
     />
 
     <Party partyId="10000395"></Party>
-    <PartyGroup
-            partyId="10000395"
-            groupName="KUUMTRÜKK, OÜ"
-            officeSiteName="Harju ( Tallinn )"
-            annualRevenue="44091.21"
-            numEmployees="6"
-            logoImageUrl=""
+    <PartyGroup partyId="10000395"
+                groupName="KUUMTRÜKK, OÜ"
+                officeSiteName="Harju ( Tallinn )"
+                annualRevenue="44091.21"
+                numEmployees="6"
+                logoImageUrl=""
     />
 
     <Party partyId="10000455"></Party>
-    <PartyGroup
-            partyId="10000455"
-            groupName="EHITUSMEISTER, OÜ"
-            officeSiteName="Võru ( Võru linn )"
-            annualRevenue="109765.1"
-            numEmployees="9"
-            logoImageUrl=""
+    <PartyGroup partyId="10000455"
+                groupName="EHITUSMEISTER, OÜ"
+                officeSiteName="Võru ( Võru linn )"
+                annualRevenue="109765.1"
+                numEmployees="9"
+                logoImageUrl=""
     />
 
     <Party partyId="10000461"></Party>
-    <PartyGroup
-            partyId="10000461"
-            groupName="MUAREE, OÜ"
-            officeSiteName="Võru ( Võru linn )"
-            annualRevenue="5205.72"
-            numEmployees="2"
-            logoImageUrl=""
+    <PartyGroup partyId="10000461"
+                groupName="MUAREE, OÜ"
+                officeSiteName="Võru ( Võru linn )"
+                annualRevenue="5205.72"
+                numEmployees="2"
+                logoImageUrl=""
     />
 
     <Party partyId="10000515"></Party>
-    <PartyGroup
-            partyId="10000515"
-            groupName="B.BRAUN MEDICAL, OÜ"
-            officeSiteName="Harju ( Tallinn )"
-            annualRevenue="4140028.74"
-            numEmployees="27"
-            logoImageUrl=""
+    <PartyGroup partyId="10000515"
+                groupName="B.BRAUN MEDICAL, OÜ"
+                officeSiteName="Harju ( Tallinn )"
+                annualRevenue="4140028.74"
+                numEmployees="27"
+                logoImageUrl=""
     />
 
     <Party partyId="10000550"></Party>
-    <PartyGroup
-            partyId="10000550"
-            groupName="GPK PARTNERID, OÜ"
-            officeSiteName="Tartu ( Tartu linn )"
-            annualRevenue="38941.22"
-            numEmployees="7"
-            logoImageUrl=""
+    <PartyGroup partyId="10000550"
+                groupName="GPK PARTNERID, OÜ"
+                officeSiteName="Tartu ( Tartu linn )"
+                annualRevenue="38941.22"
+                numEmployees="7"
+                logoImageUrl=""
     />
 
     <Party partyId="10000573"></Party>
-    <PartyGroup
-            partyId="10000573"
-            groupName="AKTSIASELTS METAPRINT"
-            officeSiteName="Harju ( Tallinn )"
-            annualRevenue="28928605.07"
-            numEmployees="225"
-            logoImageUrl=""
+    <PartyGroup partyId="10000573"
+                groupName="AKTSIASELTS METAPRINT"
+                officeSiteName="Harju ( Tallinn )"
+                annualRevenue="28928605.07"
+                numEmployees="225"
+                logoImageUrl=""
+    />
+    <PartyQuarter entryId="7" partyId="10000573"
+                  fromDate=""
+                  toDate=""
+                  year_="2019"
+                  month_=""
+                  quarter="4"
+                  numberOfEmployees="100"
+                  revenue=""
+                  periodType=""
     />
 
 
-    <ContactMech
-            contactMechId="1"
-            infoString="blablabla"
+    <ContactMech contactMechId="1"/>
+    <PostalAddress contactMechId="1"
+                   contactMechTypeId="POSTAL_ADDRESS"
+                   city="Tallinn"
+                   address1="Sõpruse pst"
+                   houseNumber="1"
+                   houseNumberExt="20"
     />
 
-    <PostalAddress
-            contactMechId="1"
-            contactMechTypeId="POSTAL_ADDRESS"
-            city="Tallinn"
-            address1="Sõpruse pst"
-            houseNumber="1"
-            houseNumberExt="20"
+    <ContactMech contactMechId="2"/>
+    <PostalAddress contactMechId="2"
+                   city="Tallinn"
+                   address1="Mustemäe tee"
+                   houseNumber="30"
+                   houseNumberExt="100"
     />
 
-    <ContactMech
-            contactMechId="2"
-            infoString="blablabla"
+    <ContactMech contactMechId="3"/>
+    <PostalAddress contactMechId="3"
+                   city="Viljandi"
+                   address1="Mustamäe tee"
+                   houseNumber="30"
+                   houseNumberExt="100"
     />
 
-    <PostalAddress
-            contactMechId="2"
-            city="Tallinn"
-            address1="Mustemäe tee"
-            houseNumber="30"
-            houseNumberExt="100"
+    <ContactMech contactMechId="4"/>
+    <PostalAddress contactMechId="4"
+                   city="Tartu"
+                   address1="Mustamäe tee"
+                   houseNumber="30"
+                   houseNumberExt="100"
     />
 
-
-    <ContactMech
-            contactMechId="3"
-            infoString="blablabla"
+    <PartyContactMech partyId="10000018" contactMechId="1"
+                      fromDate="2020-12-12 09:09:09"
+                      comments="bla"
     />
-
-    <PostalAddress
-            contactMechId="3"
-            city="Tallinn"
-            address1="Mustamäe tee"
-            houseNumber="30"
-            houseNumberExt="100"
+    <PartyContactMech partyId="10000018" contactMechId="2"
+                      fromDate="2020-12-12 09:09:09"
+                      comments="bla"
+    />
+    <PartyContactMech partyId="10000024" contactMechId="3"
+                      fromDate="2020-12-12 09:09:09"
+                      comments="bla"
+    />
+    <PartyContactMech partyId="10000062" contactMechId="4"
+                      fromDate="2020-12-12 09:09:09"
     />
 
 
     <Party partyId="10"/>
-    <Person
-            partyId="10"
+    <Person partyId="10"
             firstName="Peeter"
             lastName="Kell"
     />
+    <PartyRole partyId="10"
+               roleTypeId="EMPLOYEE"
+    />
 
     <Party partyId="11"/>
-    <Person
-            partyId="11"
+    <Person partyId="11"
             firstName="Mari"
             lastName="Kukk"
     />
-
-    <PartyRole
-            partyId="10000018"
-            roleTypeId="ORGANIZATION_ROLE"
+    <PartyRole partyId="11"
+               roleTypeId="EMPLOYEE"
     />
 
-    <PartyRole
-            partyId="10"
-            roleTypeId="EMPLOYEE"
-    />
 
-    <PartyRole
-            partyId="11"
-            roleTypeId="EMPLOYEE"
+    <PartyRelationship partyIdTo="10" partyIdFrom="10000018"
+                       roleTypeIdTo="EMPLOYEE"
+                       roleTypeIdFrom="ORGANIZATION_ROLE"
+                       fromDate="2020-12-12 09:09:09"
+                       partyRelationshipTypeId="EMPLOYMENT"
     />
-
-    <PartyRelationship
-            partyIdTo="10"
-            roleTypeIdTo="EMPLOYEE"
-            partyIdFrom="10000018"
-            roleTypeIdFrom="ORGANIZATION_ROLE"
-            fromDate="2020-12-12 09:09:09"
-            partyRelationshipTypeId="EMPLOYMENT"
-    />
-
-    <PartyRelationship
-            partyIdTo="11"
-            roleTypeIdTo="EMPLOYEE"
-            partyIdFrom="10000018"
-            roleTypeIdFrom="ORGANIZATION_ROLE"
-            fromDate="2020-12-12 09:09:09"
-            partyRelationshipTypeId="EMPLOYMENT"
-    />
-
-    <PartyContactMech
-            partyId="10000018"
-            contactMechId="1"
-            fromDate="2020-12-12 09:09:09"
-            comments="bla"
-    />
-
-    <PartyContactMech
-            partyId="10000018"
-            contactMechId="2"
-            fromDate="2020-12-12 09:09:09"
-            comments="bla"
-    />
-
-    <PartyContactMech
-            partyId="10000024"
-            contactMechId="3"
-            fromDate="2020-12-12 09:09:09"
-            comments="bla"
+    <PartyRelationship partyIdTo="11" partyIdFrom="10000018"
+                       roleTypeIdTo="EMPLOYEE"
+                       roleTypeIdFrom="ORGANIZATION_ROLE"
+                       fromDate="2020-12-12 09:09:09"
+                       partyRelationshipTypeId="EMPLOYMENT"
     />
 
     <!--    <PartyQuarter-->
-    <!--            entryId="1"-->
-    <!--            partyId="10000018"-->
+    <!--            entryId="6"-->
+    <!--            partyId="10000573"-->
     <!--            fromDate=""-->
     <!--            toDate=""-->
     <!--            year_="2019"-->
     <!--            month_=""-->
-    <!--            quarter="1"-->
-    <!--            stateTaxes="1000"-->
-    <!--            workforceTaxes="2000"-->
-    <!--            revenue="300"-->
-    <!--            numberOfEmployees="300"-->
-    <!--            periodType="Quarter"-->
-    <!--            period="2019 IV"-->
+    <!--            quarter="4"-->
+    <!--            numberOfEmployees="100"-->
+    <!--            revenue=""-->
+    <!--            periodType=""-->
     <!--    />-->
 
-    <!--    <PartyQuarter-->
-    <!--            entryId="2"-->
+    <!--    <Emtak-->
+    <!--            code=""-->
+    <!--            level1="L"-->
+    <!--            level2="68"-->
+    <!--            level3="6"-->
+    <!--            level4="6"-->
+    <!--            level5="6"-->
+    <!--            emtak="Kinnisvaraalane tegevus"-->
+    <!--    />-->
+
+    <!--    <Emtak-->
+    <!--            code="G"-->
+    <!--            emtak="HULGI- JA JAEKAUBANDUS; OOTORSÕIDUKITE JA MOOTORRATASTE REMONT"-->
+    <!--    />-->
+
+    <!--    <EmtakToPartyGroup-->
+    <!--            code="G"-->
     <!--            partyId="10000018"-->
-    <!--            fromDate=""-->
-    <!--            toDate=""-->
-    <!--            year_="2019"-->
-    <!--            month_=""-->
-    <!--            quarter="2"-->
-    <!--            stateTaxes="3000"-->
-    <!--            workforceTaxes="4000"-->
-    <!--            revenue="200"-->
-    <!--            numberOfEmployees="350"-->
-    <!--            periodType="Quarter"-->
-    <!--            period="2019 IV"-->
     <!--    />-->
-
-    <PartyQuarter
-            entryId="3"
-            partyId="10000018"
-            fromDate=""
-            toDate=""
-            dateImported="2020-08-17 10:00:09"
-            sourceOfData="emta.ee"
-            year_="2019"
-            month_=""
-            quarter="3"
-            stateTaxes="5000"
-            workforceTaxes="6000"
-            revenue="100"
-            numberOfEmployees="400"
-            periodType="Quarter"
-            period="2019 IV"
-    />
-
-    <PartyQuarter
-            entryId="4"
-            partyId="10000018"
-            fromDate=""
-            toDate=""
-            dateImported="2020-08-17 10:00:09"
-            sourceOfData="emta.ee"
-            year_="2019"
-            month_=""
-            quarter="4"
-            stateTaxes="570273.86"
-            workforceTaxes="575669.81"
-            revenue="28928605.07"
-            numberOfEmployees="225"
-            periodType="Quarter"
-            period="2019 IV"
-    />
-
-    <!--    <PartyQuarter-->
-    <!--            entryId="5"-->
-    <!--            partyId="10000018"-->
-    <!--            fromDate=""-->
-    <!--            toDate=""-->
-    <!--            year_="2020"-->
-    <!--            month_=""-->
-    <!--            quarter="1"-->
-    <!--            stateTaxes="1000"-->
-    <!--            workforceTaxes="2000"-->
-    <!--            revenue="300"-->
-    <!--            numberOfEmployees="300"-->
-    <!--            periodType="Quarter"-->
-    <!--            period="2019 IV"-->
-    <!--    />-->
-
-    <PartyQuarter
-            entryId="6"
-            partyId="10000018"
-            fromDate=""
-            toDate=""
-            dateImported="2020-08-17 10:00:09"
-            sourceOfData="emta.ee"
-            year_="2019"
-            month_=""
-            quarter=""
-            stateTaxes="570993.86"
-            workforceTaxes="575999.81"
-            revenue="28929905.07"
-            numberOfEmployees="225"
-            periodType="year"
-            period=""
-    />
-
-    <PartyQuarter
-            entryId="7"
-            partyId="10000573"
-            fromDate=""
-            toDate=""
-            year_="2019"
-            month_=""
-            quarter="4"
-            numberOfEmployees="100"
-            revenue=""
-            periodType=""
-    />
-
-<!--    <PartyQuarter-->
-<!--            entryId="6"-->
-<!--            partyId="10000573"-->
-<!--            fromDate=""-->
-<!--            toDate=""-->
-<!--            year_="2019"-->
-<!--            month_=""-->
-<!--            quarter="4"-->
-<!--            numberOfEmployees="100"-->
-<!--            revenue=""-->
-<!--            periodType=""-->
-<!--    />-->
-
-<!--    <Emtak-->
-<!--            code=""-->
-<!--            level1="L"-->
-<!--            level2="68"-->
-<!--            level3="6"-->
-<!--            level4="6"-->
-<!--            level5="6"-->
-<!--            emtak="Kinnisvaraalane tegevus"-->
-<!--    />-->
-
-<!--    <Emtak-->
-<!--            code="G"-->
-<!--            emtak="HULGI- JA JAEKAUBANDUS; OOTORSÕIDUKITE JA MOOTORRATASTE REMONT"-->
-<!--    />-->
-
-<!--    <EmtakToPartyGroup-->
-<!--            code="G"-->
-<!--            partyId="10000018"-->
-<!--    />-->
 </entity-engine-xml>
