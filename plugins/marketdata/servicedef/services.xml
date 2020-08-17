@@ -32,6 +32,8 @@ under the License.
         <attribute name="companies" type="java.util.List" mode="OUT"/>
     </service>
 
+
+
     <service name="createOfbizDemo" default-entity-name="OfbizDemo" engine="entity-auto" invoke="create" auth="true">
         <description>Create an Ofbiz Demo record</description>
         <auto-attributes include="pk" mode="OUT" optional="false"/>

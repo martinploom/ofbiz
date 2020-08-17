@@ -27,7 +27,7 @@ under the License.
             groupName="AMSERV AUTO AS"
             officeSiteName="Harju ( Tallinn )"
             annualRevenue="28928705.07"
-            numEmployees="211"
+            numEmployees="225"
             logoImageUrl="https://www.amservauto.ee/upload/SITELOGO.png"
     />
 
@@ -36,8 +36,8 @@ under the License.
             partyId="10000024"
             groupName="EESTI RAAMAT, OÜ"
             officeSiteName="Harju ( Tallinn )"
-            annualRevenue="126522.33"
-            numEmployees="11"
+            annualRevenue=""
+            numEmployees=""
             logoImageUrl="https://eestiraamat.ee/image/catalog/logo/EestiRaamat803.png"
     />
 
@@ -46,7 +46,7 @@ under the License.
             partyId="10000062"
             groupName="ALDO KOPPEL"
             officeSiteName="Ida-Viru ( Lüganuse vald )"
-            annualRevenue="251.65"
+            annualRevenue=""
             numEmployees=""
             logoImageUrl=""
     />
@@ -56,8 +56,8 @@ under the License.
             partyId="10000127"
             groupName="ARAVETE APTEEK, TÜ"
             officeSiteName="Järva ( Järva vald )"
-            annualRevenue="120082.02"
-            numEmployees="2"
+            annualRevenue=""
+            numEmployees=""
             logoImageUrl=""
     />
 
@@ -319,6 +319,8 @@ under the License.
             partyId="10000018"
             fromDate=""
             toDate=""
+            dateImported="2020-08-17 10:00:09"
+            sourceOfData="emta.ee"
             year_="2019"
             month_=""
             quarter="3"
@@ -335,6 +337,8 @@ under the License.
             partyId="10000018"
             fromDate=""
             toDate=""
+            dateImported="2020-08-17 10:00:09"
+            sourceOfData="emta.ee"
             year_="2019"
             month_=""
             quarter="4"
@@ -364,6 +368,24 @@ under the License.
 
     <PartyQuarter
             entryId="6"
+            partyId="10000018"
+            fromDate=""
+            toDate=""
+            dateImported="2020-08-17 10:00:09"
+            sourceOfData="emta.ee"
+            year_="2019"
+            month_=""
+            quarter=""
+            stateTaxes="570993.86"
+            workforceTaxes="575999.81"
+            revenue="28929905.07"
+            numberOfEmployees="225"
+            periodType="year"
+            period=""
+    />
+
+    <PartyQuarter
+            entryId="7"
             partyId="10000573"
             fromDate=""
             toDate=""
@@ -375,18 +397,18 @@ under the License.
             periodType=""
     />
 
-    <PartyQuarter
-            entryId="6"
-            partyId="10000573"
-            fromDate=""
-            toDate=""
-            year_="2019"
-            month_=""
-            quarter="4"
-            numberOfEmployees="100"
-            revenue=""
-            periodType=""
-    />
+<!--    <PartyQuarter-->
+<!--            entryId="6"-->
+<!--            partyId="10000573"-->
+<!--            fromDate=""-->
+<!--            toDate=""-->
+<!--            year_="2019"-->
+<!--            month_=""-->
+<!--            quarter="4"-->
+<!--            numberOfEmployees="100"-->
+<!--            revenue=""-->
+<!--            periodType=""-->
+<!--    />-->
 
 <!--    <Emtak-->
 <!--            code=""-->
