@@ -173,7 +173,7 @@ under the License.
                   periodType="year"
                   period=""
     />
-<!--
+
     <Party partyId="10000219"></Party>
     <PartyGroup partyId="10000219"
                 groupName="YEAR, AS"
@@ -196,7 +196,7 @@ under the License.
                   numberOfEmployees="5000"
                   periodType="year"
                   period=""
-    /> -->
+    />
 
     <Party partyId="10000248"></Party>
     <PartyGroup partyId="10000248"
