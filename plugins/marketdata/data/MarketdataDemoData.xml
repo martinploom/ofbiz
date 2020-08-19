@@ -173,7 +173,7 @@ under the License.
                   periodType="year"
                   period=""
     />
-
+<!--
     <Party partyId="10000219"></Party>
     <PartyGroup partyId="10000219"
                 groupName="YEAR, AS"
@@ -196,7 +196,7 @@ under the License.
                   numberOfEmployees="5000"
                   periodType="year"
                   period=""
-    />
+    /> -->
 
     <Party partyId="10000248"></Party>
     <PartyGroup partyId="10000248"
@@ -204,7 +204,22 @@ under the License.
                 officeSiteName="Harju ( Tallinn )"
                 annualRevenue="1300417.07"
                 numEmployees="7"
-                logoImageUrl=""
+                logoImageUrl="https://www.itwconstruction.ee/wp-content/uploads/2016/04/spit-logo-1.png"
+    />
+    <PartyQuarter entryId="15" partyId="10000248"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="4000"
+                  workforceTaxes="4000"
+                  revenue="85839202"
+                  numberOfEmployees="99"
+                  periodType="year"
+                  period=""
     />
 
     <Party partyId="10000356"></Party>
@@ -213,7 +228,22 @@ under the License.
                 officeSiteName="Tartu ( Tartu linn )"
                 annualRevenue="2379154.55"
                 numEmployees="19"
-                logoImageUrl=""
+                logoImageUrl="https://www.estiko.ee/assets/Estiko_logo_2020.svg"
+    />
+    <PartyQuarter entryId="16" partyId="10000356"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="4000"
+                  workforceTaxes="4000"
+                  revenue="899544"
+                  numberOfEmployees="54"
+                  periodType="year"
+                  period=""
     />
 
     <Party partyId="10000372"></Party>
@@ -224,6 +254,21 @@ under the License.
                 numEmployees="162"
                 logoImageUrl=""
     />
+    <PartyQuarter entryId="17" partyId="10000372"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="4000"
+                  workforceTaxes="4000"
+                  revenue="90076"
+                  numberOfEmployees="8"
+                  periodType="year"
+                  period=""
+    />
 
     <Party partyId="10000395"></Party>
     <PartyGroup partyId="10000395"
@@ -233,6 +278,21 @@ under the License.
                 numEmployees="6"
                 logoImageUrl=""
     />
+    <PartyQuarter entryId="18" partyId="10000395"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="4000"
+                  workforceTaxes="4000"
+                  revenue="90444"
+                  numberOfEmployees="12"
+                  periodType="year"
+                  period=""
+    />
 
     <Party partyId="10000455"></Party>
     <PartyGroup partyId="10000455"
@@ -240,7 +300,22 @@ under the License.
                 officeSiteName="Võru ( Võru linn )"
                 annualRevenue="109765.1"
                 numEmployees="9"
-                logoImageUrl=""
+                logoImageUrl="https://www.ehitusmeister.ee/wp-content/uploads/2019/01/imageedit_2_9238954994.png"
+    />
+    <PartyQuarter entryId="19" partyId="10000455"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="4000"
+                  workforceTaxes="4000"
+                  revenue="455327"
+                  numberOfEmployees="89"
+                  periodType="year"
+                  period=""
     />
 
     <Party partyId="10000461"></Party>
@@ -251,6 +326,21 @@ under the License.
                 numEmployees="2"
                 logoImageUrl=""
     />
+    <PartyQuarter entryId="20" partyId="10000461"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="4000"
+                  workforceTaxes="4000"
+                  revenue="8955542"
+                  numberOfEmployees="67"
+                  periodType="year"
+                  period=""
+    />
 
     <Party partyId="10000515"></Party>
     <PartyGroup partyId="10000515"
@@ -260,6 +350,21 @@ under the License.
                 numEmployees="27"
                 logoImageUrl=""
     />
+    <PartyQuarter entryId="21" partyId="10000515"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="4000"
+                  workforceTaxes="4000"
+                  revenue="9087544"
+                  numberOfEmployees="7"
+                  periodType="year"
+                  period=""
+    />
 
     <Party partyId="10000550"></Party>
     <PartyGroup partyId="10000550"
@@ -267,7 +372,22 @@ under the License.
                 officeSiteName="Tartu ( Tartu linn )"
                 annualRevenue="38941.22"
                 numEmployees="7"
-                logoImageUrl=""
+                logoImageUrl="https://gpk.ee/wp-content/uploads/2019/02/GPK-logo_300.png"
+    />
+    <PartyQuarter entryId="22" partyId="10000550"
+                  fromDate=""
+                  toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
+                  year_="2019"
+                  month_=""
+                  quarter=""
+                  stateTaxes="4000"
+                  workforceTaxes="4000"
+                  revenue="38941.22"
+                  numberOfEmployees="7"
+                  periodType="year"
+                  period=""
     />
 
     <Party partyId="10000573"></Party>
@@ -278,15 +398,20 @@ under the License.
                 numEmployees="225"
                 logoImageUrl=""
     />
-    <PartyQuarter entryId="7" partyId="10000573"
+    <PartyQuarter entryId="23" partyId="10000573"
                   fromDate=""
                   toDate=""
+                  dateImported="2020-08-17 10:00:09"
+                  sourceOfData="emta.ee"
                   year_="2019"
                   month_=""
-                  quarter="4"
-                  numberOfEmployees="100"
-                  revenue=""
-                  periodType=""
+                  quarter=""
+                  stateTaxes="4000"
+                  workforceTaxes="4000"
+                  revenue="866656.78"
+                  numberOfEmployees="90"
+                  periodType="year"
+                  period=""
     />
 
 
@@ -323,6 +448,102 @@ under the License.
                    houseNumberExt="100"
     />
 
+    <ContactMech contactMechId="5"/>
+    <PostalAddress contactMechId="5"
+                   city="Tartu"
+                   address1="Lepiku"
+                   houseNumber="20"
+                   houseNumberExt="1"
+    />
+
+    <ContactMech contactMechId="6"/>
+    <PostalAddress contactMechId="6"
+                   city="Pärnu"
+                   address1="Saia"
+                   houseNumber="2"
+                   houseNumberExt="10"
+    />
+
+    <ContactMech contactMechId="7"/>
+    <PostalAddress contactMechId="7"
+                   city="Paide"
+                   address1="Saare"
+                   houseNumber="5"
+                   houseNumberExt="2"
+    />
+
+    <ContactMech contactMechId="8"/>
+    <PostalAddress contactMechId="8"
+                   city="Kärdla"
+                   address1="Puu"
+                   houseNumber="3"
+                   houseNumberExt="5"
+    />
+
+    <ContactMech contactMechId="9"/>
+    <PostalAddress contactMechId="9"
+                   city="Tallinn"
+                   address1="Härja"
+                   houseNumber="2"
+                   houseNumberExt="1"
+    />
+
+    <ContactMech contactMechId="10"/>
+    <PostalAddress contactMechId="10"
+                   city="Tartu"
+                   address1="Põllu"
+                   houseNumber="4"
+                   houseNumberExt="1"
+    />
+
+    <ContactMech contactMechId="11"/>
+    <PostalAddress contactMechId="11"
+                   city="Viljandi"
+                   address1="Raie"
+                   houseNumber="5"
+                   houseNumberExt="8"
+    />
+
+    <ContactMech contactMechId="12"/>
+    <PostalAddress contactMechId="12"
+                   city="Tallinn"
+                   address1="Värava"
+                   houseNumber="20"
+                   houseNumberExt="1"
+    />
+
+    <ContactMech contactMechId="13"/>
+    <PostalAddress contactMechId="13"
+                   city="Põltsamaa"
+                   address1="Tooli"
+                   houseNumber="40"
+                   houseNumberExt="1"
+    />
+
+    <ContactMech contactMechId="14"/>
+    <PostalAddress contactMechId="14"
+                   city="Tartu"
+                   address1="Diisli"
+                   houseNumber="40"
+                   houseNumberExt="1"
+    />
+
+    <ContactMech contactMechId="15"/>
+    <PostalAddress contactMechId="15"
+                   city="Tallinn"
+                   address1="Vaiba"
+                   houseNumber="70"
+                   houseNumberExt="1"
+    />
+
+    <ContactMech contactMechId="16"/>
+    <PostalAddress contactMechId="16"
+                   city="Tartu"
+                   address1="Laua"
+                   houseNumber="80"
+                   houseNumberExt="18"
+    />
+
     <PartyContactMech partyId="10000018" contactMechId="1"
                       fromDate="2020-12-12 09:09:09"
                       comments="bla"
@@ -336,6 +557,42 @@ under the License.
                       comments="bla"
     />
     <PartyContactMech partyId="10000062" contactMechId="4"
+                      fromDate="2020-12-12 09:09:09"
+    />
+    <PartyContactMech partyId="10000127" contactMechId="5"
+                      fromDate="2020-12-12 09:09:09"
+    />
+    <PartyContactMech partyId="10000165" contactMechId="6"
+                      fromDate="2020-12-12 09:09:09"
+    />
+    <PartyContactMech partyId="10000219" contactMechId="7"
+                      fromDate="2020-12-12 09:09:09"
+    />
+    <PartyContactMech partyId="10000248" contactMechId="8"
+                      fromDate="2020-12-12 09:09:09"
+    />
+    <PartyContactMech partyId="10000356" contactMechId="9"
+                      fromDate="2020-12-12 09:09:09"
+    />
+    <PartyContactMech partyId="10000372" contactMechId="10"
+                      fromDate="2020-12-12 09:09:09"
+    />
+    <PartyContactMech partyId="10000395" contactMechId="11"
+                      fromDate="2020-12-12 09:09:09"
+    />
+    <PartyContactMech partyId="10000455" contactMechId="12"
+                      fromDate="2020-12-12 09:09:09"
+    />
+    <PartyContactMech partyId="10000461" contactMechId="13"
+                      fromDate="2020-12-12 09:09:09"
+    />
+    <PartyContactMech partyId="10000515" contactMechId="14"
+                      fromDate="2020-12-12 09:09:09"
+    />
+    <PartyContactMech partyId="10000550" contactMechId="15"
+                      fromDate="2020-12-12 09:09:09"
+    />
+    <PartyContactMech partyId="10000573" contactMechId="16"
                       fromDate="2020-12-12 09:09:09"
     />
 
